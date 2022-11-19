@@ -1,3 +1,15 @@
 body{
     background: linear-gradient(to right, #abcdef, #fedcba);
 }
+
+.cards{
+    display: flex;
+}
+
+.card{
+    width: 300px;
+}
+
+.card-img>img{
+    width: 100%;
+}
