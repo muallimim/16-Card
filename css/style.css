@@ -1,15 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
 body{
     background: linear-gradient(to right, #abcdef, #fedcba);
+    font-family: 'Roboto', sans-serif;
 }
 
 .cards{
     display: flex;
+    justify-content: center;
 }
 
 .card{
     width: 300px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 3px 5px #bbbbbb;
 }
 
 .card-img>img{
     width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-body>h2{
+    text-align: center;
+}
+
+.card-body > p{
+    text-align: justify;
+    padding: 5px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer>button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    transition: 0.9s;
+}
+
+.card-footer>button:hover{
+background-color: white;
+color: black;
 }
